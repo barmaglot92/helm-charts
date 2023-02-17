@@ -31,6 +31,11 @@ extraEnv:
     value: admin
   - name: ADMIN_PASS
     value: rj45rj45
+  - name: ADMIN_EMAIL
+    value: barmaglot92@gmail.com
+  - name: OVERWRITE_SETTING_Show_Setup_Wizard
+    value: completed
+
 
 # Extra volumes for Rocket.Chat...
 extraVolumes:
