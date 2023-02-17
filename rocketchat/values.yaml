@@ -188,7 +188,7 @@ ingress:
   tls:
     - hosts:
         - rocketchat.apps.sexologvasilenko.com
-        - secretName: rocketchat-ingress-secret
+        secretName: rocketchat-ingress-secret
 
 service:
   annotations: {}
