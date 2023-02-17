@@ -35,6 +35,8 @@ extraEnv:
     value: barmaglot92@gmail.com
   - name: OVERWRITE_SETTING_Accounts_ShowFormLogin
     value: "true"
+  - name: OVERWRITE_SETTING_Registration_Form
+    value: Disabled
 
 
 # Extra volumes for Rocket.Chat...
