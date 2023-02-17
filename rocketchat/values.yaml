@@ -36,7 +36,7 @@ extraEnv:
   - name: OVERWRITE_SETTING_Show_Setup_Wizard
     value: completed
   - name: OVERWRITE_SETTING_Show_Default_Login_Form
-    value: true
+    value: "true"
 
 
 # Extra volumes for Rocket.Chat...
