@@ -41,6 +41,13 @@ extraEnv:
     value: "Disabled"
   - name: OVERWRITE_SETTING_Accounts_LoginExpiration
     value: "9999"
+  - name: OVERWRITE_SETTING_Accounts_Default_User_Preferences_emailNotificationMode
+    value: "Disabled"
+  - name: OVERWRITE_SETTING_Accounts_TwoFactorAuthentication_Enabled
+    value: "false"
+
+    
+
 
 
 # Extra volumes for Rocket.Chat...
