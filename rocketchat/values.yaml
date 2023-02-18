@@ -30,7 +30,7 @@ extraEnv:
   - name: INITIAL_USER
     value: "yes"
   - name: ADMIN_USERNAME
-    value: "barmaglot92"
+    value: "rocketchat"
   - name: ADMIN_PASS
     value: "rj45rj45"
   - name: ADMIN_EMAIL
