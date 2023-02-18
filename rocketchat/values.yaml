@@ -47,6 +47,15 @@ extraEnv:
     value: "false"
   - name: OVERWRITE_SETTING_Accounts_TwoFactorAuthentication_By_Email_Enabled
     value: "false"
+  - name: OVERWRITE_SETTING_API_Enable_CORS
+    value: "true"
+  # change in prod
+  - name: OVERWRITE_SETTING_API_CORS_Origin
+    value: "*"
+
+    
+
+    
 
     
 
