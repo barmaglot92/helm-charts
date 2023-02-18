@@ -32,7 +32,7 @@ extraEnv:
   - name: ADMIN_USERNAME
     value: "rocketchat"
   - name: ADMIN_PASS
-    value: "rj45rj45"
+    value: "\+FJrPTj{6rrSM?+"
   - name: ADMIN_EMAIL
     value: "barmaglot92@gmail.com"
   - name: OVERWRITE_SETTING_Show_Setup_Wizard
