@@ -30,11 +30,13 @@ extraEnv:
   - name: INITIAL_USER
     value: "yes"
   - name: ADMIN_USERNAME
-    value: "admin"
+    value: "barmaglot92"
   - name: ADMIN_PASS
     value: "rj45rj45"
   - name: ADMIN_EMAIL
     value: "barmaglot92@gmail.com"
+  - name: OVERWRITE_SETTING_Show_Setup_Wizard
+    value: "completed"
   - name: OVERWRITE_SETTING_Accounts_ShowFormLogin
     value: "true"
   - name: OVERWRITE_SETTING_Accounts_RegistrationForm
