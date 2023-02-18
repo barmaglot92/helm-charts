@@ -38,7 +38,7 @@ extraEnv:
   - name: OVERWRITE_SETTING_Accounts_RegistrationForm
     value: "Disabled"
   - name: OVERWRITE_SETTING_Accounts_LoginExpiration
-    value: 9999
+    value: "9999"
 
 
 # Extra volumes for Rocket.Chat...
