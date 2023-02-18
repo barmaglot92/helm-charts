@@ -27,12 +27,14 @@ extraEnv:
   #   value: '{"ssl": "true"}'
   # - name: MONGO_OPLOG_URL
   #   value: mongodb://oploguser:password@rocket-1:27017/local&replicaSet=rs0
+  - name: INITIAL_USER
+    value: "yes"
   - name: ADMIN_USERNAME
-    value: admin
+    value: "admin"
   - name: ADMIN_PASS
-    value: rj45rj45
+    value: "rj45rj45"
   - name: ADMIN_EMAIL
-    value: barmaglot92@gmail.com
+    value: "barmaglot92@gmail.com"
   - name: OVERWRITE_SETTING_Accounts_ShowFormLogin
     value: "true"
   - name: OVERWRITE_SETTING_Accounts_RegistrationForm
