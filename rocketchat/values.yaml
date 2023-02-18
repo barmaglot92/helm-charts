@@ -37,7 +37,7 @@ extraEnv:
     value: "true"
   - name: OVERWRITE_SETTING_Accounts_RegistrationForm
     value: "Disabled"
-  - name: OVERWRITE_SETTING_Accounts_LoginExpirationInDays
+  - name: OVERWRITE_SETTING_Accounts_LoginExpiration
     value: 9999
 
 
