@@ -51,7 +51,7 @@ extraEnv:
     value: "true"
   # change in prod
   - name: OVERWRITE_SETTING_API_CORS_Origin
-    value: "http://localhost*"
+    value: "*"
   - name: OVERWRITE_SETTING_Iframe_Restrict_Access
     value: "false"
 
