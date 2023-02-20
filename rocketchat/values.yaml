@@ -51,21 +51,9 @@ extraEnv:
     value: "true"
   # change in prod
   - name: OVERWRITE_SETTING_API_CORS_Origin
-    value: "http://localhost:4000"
+    value: "http://localhost:4000,http://localhost:6006,http://localhost:3002,http://localhost:3001"
   - name: OVERWRITE_SETTING_Iframe_Restrict_Access
     value: "false"
-
-    
-
-    
-
-    
-
-    
-
-    
-
-
 
 # Extra volumes for Rocket.Chat...
 extraVolumes:
@@ -229,7 +217,7 @@ ingress:
           pathType: Prefix
   tls:
     - hosts:
-      - rocketchat.apps.sexologvasilenko.com
+        - rocketchat.apps.sexologvasilenko.com
       secretName: rocketchat-ingress-secret
 
 service:
